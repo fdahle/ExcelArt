@@ -10,9 +10,6 @@ from datetime import datetime
 from matplotlib.image import imread
 from sklearn.cluster import MiniBatchKMeans
 
-imgPath = "cat.jpg"
-savePath = "cat.xlsx"
-
 def convert_to_excelArt(imgPath, savePath="", overwrite=False, pixel_size = [2, 2], gray=False, scale=1, n_clusters = 128, random_state=0):
 
     #check if imgPath is correct
