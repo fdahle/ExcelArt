@@ -3,7 +3,7 @@
 With this tool it is possible to convert your images to awesome ExcelArt!<br>
 Due to limitations of Excel the image cannot be converted 1:1. However the number of colours in the image must be reduced by clustering.
 
-![example for conversion](https://github.com/fdahle/ExcelArt/blob/main/example.PNG?raw=true)
+![example for conversion](https://github.com/fdahle/ExcelArt/blob/main/examples/example.PNG?raw=true)
 
 (On the left you can see the original image, on the right you can see the image as an excel sheet. Not that the right image is created by colouring the single excel cells, not just by adding the picture)
 
@@ -17,9 +17,9 @@ In this case a new Excel-File is created in the current folder with the same nam
 
 it is possible to use some optional parameters:
 
-* `savePath` - the path and the name of the output excelFile - default: "" (same Folder) 
+* `savePath` - the path and the name of the output excelFile - default: "" (same Folder)
 * `overwrite`- if this is set to true it is possible to overwrite exiting excelFiles - default: False
-* `pixel_size` - array that specifies the size of the cells in the Excel (\[width, height \]) - default: \[2, 2 \] 
+* `pixel_size` - array that specifies the size of the cells in the Excel (\[width, height \]) - default: \[2, 2 \]
 * `gray` - if the image should be converted to a grayscale version - default: False
 * `scale` - if the image should be rescaled. Must be a float value between 0.001 and 2 - default: 1
 * `n_clusters` - the number of clusters in which the image is clustered (=number of different colours in the picture) - default: 128
