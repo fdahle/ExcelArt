@@ -5,7 +5,7 @@ Due to limitations of Excel the image cannot be converted 1:1. However the numbe
 
 ![example for conversion](https://github.com/fdahle/ExcelArt/blob/main/example.PNG?raw=true)
 
-(On the left you can see the original image, on the right you can see the image as an excel sheet. Not that the right image is created by colouring the single excel cells, not just by adding the picture)
+(On the left you can see the original image, on the right you can see the image as an excel sheet. Note that the right image is created by colouring the single excel cells, not just by adding the picture)
 
 
 ## How to use it
