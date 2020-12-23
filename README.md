@@ -1,7 +1,7 @@
 # ExcelArt
 
 With this tool it is possible to convert your images to awesome ExcelArt!<br>
-Due to limitations of Excel the image cannot be converted 1:1. However the number of colours in the image must be reduced by clustering.
+Due to limitations of Excel the image cannot be converted 1:1. Instead the number of colours in the image must be reduced by clustering.
 
 ![example for conversion](https://github.com/fdahle/ExcelArt/blob/main/readme/example.PNG?raw=true)
 
